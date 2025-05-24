@@ -2,7 +2,7 @@ import axios from "axios"
 
 //export const API_BASE_URL = "http://localhost:9192"
 
-export const API_BASE_URL = import.meta.env.REACT_APP_API_URL || 'http://localhost:9192';
+export const API_BASE_URL = import.meta.env.REACT_APP_API_URL || 'https://my-backend.azurewebsites.net';
 
 const api = axios.create({baseURL:API_BASE_URL})
 
