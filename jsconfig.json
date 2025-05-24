@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Base path for resolving non-relative module imports
+    "paths": {
+      "@/*": ["./src/*"] // Alias '@/' to point to the 'src' directory
+    }
+  },
+  "include": ["src"]
+}
+  
